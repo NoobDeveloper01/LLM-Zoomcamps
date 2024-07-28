@@ -15,8 +15,7 @@ def elasticsearch(documents: List[Dict[str, Union[Dict, List[int], str]]], *args
         document = documents[0]
         dimensions = len(document.get('embedding') or [])
 
-    # Increase timeout settings
-    es_client = Elasticsearch(connection_string, timeout=60, max_retries=3, retry_on_timeout=True)
+    es_client = Elasticsearch(connection_string)
     
     # Check if Elasticsearch is reachable
     try:
