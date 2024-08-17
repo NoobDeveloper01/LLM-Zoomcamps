@@ -148,6 +148,42 @@ blocks:
   upstream_blocks:
   - prismatic_axiom
   uuid: numinous_fission
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file:
+      content: null
+      extension: py
+      language: python
+      modified_timestamp: 1723881933
+      name: hallowed_rune.py
+      output: null
+      path: /home/src/llm/rager/data_loaders/hallowed_rune.py
+      relative_path: llm/rager/data_loaders/hallowed_rune.py
+      size: 1493
+    file_source:
+      path: rager/data_loaders/hallowed_rune.py
+    templates:
+      elasticsearch:
+        variables:
+          chunk_column: chunk
+          connection_string: http://elasticsearch:9200
+          index_name: documents
+          vector_column_name: embedding
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  groups:
+  - iterative_retrieval
+  has_callback: false
+  language: python
+  name: Hallowed rune
+  retry_config: null
+  status: not_executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: hallowed_rune
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
