@@ -106,7 +106,7 @@ To check the content of the database, use `pgcli` (already
 installed with pipenv):
 
 ```bash
-pipenv run pgcli -h localhost -U admin -d course_assistant -W
+pipenv run pgcli -h localhost -U admin -d fitness_assistant -W
 ```
 
 You can view the schema using the `\d` command:
