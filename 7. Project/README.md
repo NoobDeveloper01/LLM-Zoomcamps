@@ -1,9 +1,5 @@
 # Fitness Assistant
 
-<p align="center">
-  <img src="images/banner.jpg">
-</p>
-
 Staying consistent with fitness routines is challenging,
 especially for beginners. Gyms can be intimidating, and personal
 trainers aren't always available.
@@ -15,11 +11,6 @@ manageable.
 This project was implemented for 
 [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) -
 a free course about LLMs and RAG.
-
-<p align="center">
-  <img src="images/image.png">
-</p>
-
 
 ## Project overview
 
@@ -427,10 +418,6 @@ It's accessible at [localhost:3000](http://localhost:3000):
 - Password: "admin"
 
 ### Dashboards
-
-<p align="center">
-  <img src="images/dash.png">
-</p>
 
 The monitoring dashboard contains several panels:
 
